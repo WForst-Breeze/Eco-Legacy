@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "eco_legacy:block/deepslate_ancient_ore",
+    "up": "eco_legacy:block/deepslate_ancient_ore",
+    "north": "eco_legacy:block/deepslate_ancient_ore",
+    "east": "eco_legacy:block/deepslate_ancient_ore",
+    "south": "eco_legacy:block/deepslate_ancient_ore",
+    "west": "eco_legacy:block/deepslate_ancient_ore",
+    "particle": "eco_legacy:block/deepslate_ancient_ore"
+  },
+  "render_type": "solid"
+}

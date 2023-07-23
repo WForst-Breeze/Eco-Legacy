@@ -1,0 +1,42 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:cobblestone"
+    },
+    "1": {
+      "item": "minecraft:oak_leaves"
+    },
+    "2": {
+      "item": "minecraft:wooden_pickaxe"
+    },
+    "3": {
+      "item": "minecraft:cobblestone"
+    },
+    "4": {
+      "item": "minecraft:netherite_pickaxe"
+    },
+    "5": {
+      "item": "minecraft:oak_leaves"
+    },
+    "6": {
+      "item": "minecraft:wooden_sword"
+    },
+    "7": {
+      "item": "minecraft:cobblestone"
+    },
+    "8": {
+      "item": "minecraft:cobblestone"
+    }
+  },
+  "result": {
+    "item": "eco_legacy:inception_pickaxe",
+    "count": 1
+  }
+}

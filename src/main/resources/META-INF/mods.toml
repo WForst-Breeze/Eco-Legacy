@@ -1,0 +1,23 @@
+modLoader="javafml"
+loaderVersion="[45,)"
+license="GNU General Public License version 3 (GPLv3)"
+
+[[mods]]
+modId="eco_legacy"
+version="0.0.1"
+displayName="Eco Legacy"
+credits="WForst Breeze"
+displayURL="https://github.com/Scandium-Studio"
+authors="Scandium Studios"
+description="With nature's might, we create wonders bright. 以自然之力，创世界奇迹"
+
+[[dependencies.eco_legacy]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.19.4]"
+    ordering="NONE"
+    side="BOTH"
+
+
+
+
