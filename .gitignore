@@ -24,7 +24,6 @@ replay_pid*
 
 *.project
 *.classpath
-mcreator.gradle
 *.mcreator
 elements/
 build/
