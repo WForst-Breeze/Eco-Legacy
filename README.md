@@ -1,2 +1,1 @@
-# Eco-Legacy
-Eco Legacy Forge Repo
+# Eco Legacy
