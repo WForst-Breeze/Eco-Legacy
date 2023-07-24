@@ -13,6 +13,7 @@
  */
 package wfb.ecolegacy;
 
+import wfb.ecolegacy.init.EcoLegacyModMenus;
 import wfb.ecolegacy.init.EcoLegacyModItems;
 import wfb.ecolegacy.init.EcoLegacyModFeatures;
 import wfb.ecolegacy.init.EcoLegacyModEnchantments;
@@ -57,6 +58,7 @@ public class EcoLegacyMod {
 
 		EcoLegacyModEnchantments.REGISTRY.register(bus);
 
+		EcoLegacyModMenus.REGISTRY.register(bus);
 		EcoLegacyModFeatures.REGISTRY.register(bus);
 
 	}

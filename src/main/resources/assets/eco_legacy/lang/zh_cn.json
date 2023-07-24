@@ -10,8 +10,10 @@
   "block.eco_legacy.deepslate_ancient_ore": "深层上古矿石",
   "advancements.back_to_basics.descr": "伊始之镐蕴藏着万物之秘密，崇尚着至高之和睦。",
   "item.eco_legacy.ancient_ingot": "上古锭",
-  "block.eco_legacy.high_energy_refiner": "High Energy Refiner",
+  "block.eco_legacy.high_energy_refiner": "高能精炼机",
+  "gui.eco_legacy.gui_high_energy_refiner.button_refine": "buttom.eco_legacy.refine",
   "advancements.eco_legacy.descr": "追寻自然的旅途，始于此处。",
   "enchantment.eco_legacy.energy_extraction": "能量萃取",
-  "item.eco_legacy.ancient_dust": "上古尘埃"
+  "item.eco_legacy.ancient_dust": "上古尘埃",
+  "buttom.eco_legacy.refine": "精炼"
 }
