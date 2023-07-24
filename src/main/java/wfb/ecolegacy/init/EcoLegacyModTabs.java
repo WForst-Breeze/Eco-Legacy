@@ -15,6 +15,10 @@ public class EcoLegacyModTabs {
 	@SubscribeEvent
 	public static void buildTabContentsVanilla(CreativeModeTabEvent.BuildContents tabData) {
 
+		if (tabData.getTab() == CreativeModeTabs.FUNCTIONAL_BLOCKS) {
+			tabData.accept(EcoLegacyModBlocks.HIGH_ENERGY_REFINER.get().asItem());
+		}
+
 		if (tabData.getTab() == CreativeModeTabs.INGREDIENTS) {
 			tabData.accept(EcoLegacyModItems.ENERGY_DUST.get());
 			tabData.accept(EcoLegacyModItems.ANCIENT_RAW_ORE.get());
