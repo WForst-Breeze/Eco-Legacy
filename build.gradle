@@ -11,9 +11,9 @@ buildscript {
 apply plugin: 'net.minecraftforge.gradle'
 apply plugin: 'eclipse'
 
-version = '1.0'
+version = 'DevelopmentVer+1.19.4'
 group = 'com.yourname.modid'
-archivesBaseName = 'modid'
+archivesBaseName = 'ecolegacy'
 
 java.toolchain.languageVersion = JavaLanguageVersion.of(17)
 
