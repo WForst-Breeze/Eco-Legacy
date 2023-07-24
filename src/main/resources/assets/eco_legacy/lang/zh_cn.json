@@ -1,6 +1,6 @@
 {
   "item.eco_legacy.dev": "Dev",
-  "advancements.power_or_chaos.descr": "制作一把下界合金镐，并重新考虑你身处的整个世界。",
+  "advancements.power_or_chaos.descr": "制作一把下界合金镐，并重新认识你身处的世界。",
   "item.eco_legacy.inception_pickaxe": "伊始之镐",
   "advancements.back_to_basics.title": "返璞归真",
   "advancements.power_or_chaos.title": "鼎盛还是混沌",
@@ -8,7 +8,8 @@
   "advancements.eco_legacy.title": "自然之遗",
   "item.eco_legacy.energy_dust": "能量尘埃",
   "block.eco_legacy.deepslate_ancient_ore": "深层上古矿石",
-  "advancements.back_to_basics.descr": "伊始之镐蕴藏着万物之秘密，崇尚着至高的和睦。",
+  "advancements.back_to_basics.descr": "伊始之镐蕴藏着万物之秘密，崇尚着至高之和睦。",
+  "item.eco_legacy.ancient_ingot": "Ancient Ingot",
   "advancements.eco_legacy.descr": "追寻自然的旅途，始于此处。",
   "enchantment.eco_legacy.energy_extraction": "能量萃取",
   "item.eco_legacy.ancient_dust": "上古尘埃"

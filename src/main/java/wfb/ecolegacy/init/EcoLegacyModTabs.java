@@ -19,6 +19,7 @@ public class EcoLegacyModTabs {
 			tabData.accept(EcoLegacyModItems.ENERGY_DUST.get());
 			tabData.accept(EcoLegacyModItems.ANCIENT_RAW_ORE.get());
 			tabData.accept(EcoLegacyModItems.ANCIENT_DUST.get());
+			tabData.accept(EcoLegacyModItems.ANCIENT_INGOT.get());
 		}
 
 		if (tabData.getTab() == CreativeModeTabs.TOOLS_AND_UTILITIES) {

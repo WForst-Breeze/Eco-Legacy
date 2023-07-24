@@ -1,0 +1,37 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "eco_legacy:ancient_dust"
+    },
+    {
+      "item": "eco_legacy:ancient_dust"
+    },
+    {
+      "item": "eco_legacy:ancient_dust"
+    },
+    {
+      "item": "eco_legacy:ancient_dust"
+    },
+    {
+      "item": "eco_legacy:ancient_dust"
+    },
+    {
+      "item": "eco_legacy:ancient_dust"
+    },
+    {
+      "item": "eco_legacy:ancient_dust"
+    },
+    {
+      "item": "eco_legacy:ancient_dust"
+    },
+    {
+      "item": "eco_legacy:ancient_dust"
+    }
+  ],
+  "result": {
+    "item": "eco_legacy:ancient_ingot",
+    "count": 1
+  }
+}

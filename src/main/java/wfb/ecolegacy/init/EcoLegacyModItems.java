@@ -8,6 +8,7 @@ import wfb.ecolegacy.item.InceptionPickaxeItem;
 import wfb.ecolegacy.item.EnergyDustItem;
 import wfb.ecolegacy.item.DevItem;
 import wfb.ecolegacy.item.AncientRawOreItem;
+import wfb.ecolegacy.item.AncientIngotItem;
 import wfb.ecolegacy.item.AncientDustItem;
 import wfb.ecolegacy.EcoLegacyMod;
 
@@ -27,6 +28,7 @@ public class EcoLegacyModItems {
 	public static final RegistryObject<Item> DEEPSLATE_ANCIENT_ORE = block(EcoLegacyModBlocks.DEEPSLATE_ANCIENT_ORE);
 	public static final RegistryObject<Item> ANCIENT_RAW_ORE = REGISTRY.register("ancient_raw_ore", () -> new AncientRawOreItem());
 	public static final RegistryObject<Item> ANCIENT_DUST = REGISTRY.register("ancient_dust", () -> new AncientDustItem());
+	public static final RegistryObject<Item> ANCIENT_INGOT = REGISTRY.register("ancient_ingot", () -> new AncientIngotItem());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties()));
