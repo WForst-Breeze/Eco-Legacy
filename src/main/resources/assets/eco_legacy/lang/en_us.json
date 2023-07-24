@@ -1,11 +1,15 @@
 {
   "item.eco_legacy.dev": "Dev",
+  "item.eco_legacy.compressed_iron_plate": "Compressed Iron Plate",
+  "advancements.overheating.title": "Overheating!",
   "advancements.power_or_chaos.descr": "Craft a Netherite pickaxe and reconsider the energy balance of the world.",
+  "advancements.keep_improving.title": "Keep Improving",
   "item.eco_legacy.inception_pickaxe": "Inception Pickaxe",
   "advancements.back_to_basics.title": "Back To Basics",
   "advancements.power_or_chaos.title": "Power or Chaos",
   "item.eco_legacy.ancient_raw_ore": "Ancient Raw Ore",
   "advancements.eco_legacy.title": "Eco Legacy",
+  "advancements.keep_improving.descr": "Make a High Energy Refiner to try to extract ancient ingot",
   "item.eco_legacy.energy_dust": "Energy Dust",
   "block.eco_legacy.deepslate_ancient_ore": "Deepslate Ancient Ore",
   "advancements.back_to_basics.descr": "The Inception Pickaxe embodies the secrets of nature. It can only be used for labor and cannot inflict any harm on living creatures.",
@@ -13,6 +17,7 @@
   "block.eco_legacy.high_energy_refiner": "High Energy Refiner",
   "gui.eco_legacy.gui_high_energy_refiner.button_refine": "buttom.eco_legacy.refine",
   "advancements.eco_legacy.descr": "The journey of a thousand miles begins with one step.",
+  "advancements.overheating.descr": "Tell me why?",
   "enchantment.eco_legacy.energy_extraction": "Energy Extraction",
   "item.eco_legacy.ancient_dust": "Ancient Dust",
   "buttom.eco_legacy.refine": "refine"

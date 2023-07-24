@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:tnt"
+    },
+    "title": {
+      "translate": "advancements.overheating.title"
+    },
+    "description": {
+      "translate": "advancements.overheating.descr"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "criteria": {
+    "overheating": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "eco_legacy:keep_improving"
+}

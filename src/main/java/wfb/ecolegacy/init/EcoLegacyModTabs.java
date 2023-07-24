@@ -24,6 +24,7 @@ public class EcoLegacyModTabs {
 			tabData.accept(EcoLegacyModItems.ANCIENT_RAW_ORE.get());
 			tabData.accept(EcoLegacyModItems.ANCIENT_DUST.get());
 			tabData.accept(EcoLegacyModItems.ANCIENT_INGOT.get());
+			tabData.accept(EcoLegacyModItems.COMPRESSED_IRON_PLATE.get());
 		}
 
 		if (tabData.getTab() == CreativeModeTabs.TOOLS_AND_UTILITIES) {

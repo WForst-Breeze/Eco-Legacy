@@ -1,0 +1,42 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "eco_legacy:compressed_iron_plate"
+    },
+    "1": {
+      "item": "minecraft:obsidian"
+    },
+    "2": {
+      "item": "eco_legacy:compressed_iron_plate"
+    },
+    "3": {
+      "item": "eco_legacy:compressed_iron_plate"
+    },
+    "4": {
+      "tag": "minecraft:anvil"
+    },
+    "5": {
+      "item": "eco_legacy:compressed_iron_plate"
+    },
+    "6": {
+      "item": "eco_legacy:compressed_iron_plate"
+    },
+    "7": {
+      "item": "minecraft:redstone_block"
+    },
+    "8": {
+      "item": "eco_legacy:compressed_iron_plate"
+    }
+  },
+  "result": {
+    "item": "eco_legacy:high_energy_refiner",
+    "count": 1
+  }
+}
