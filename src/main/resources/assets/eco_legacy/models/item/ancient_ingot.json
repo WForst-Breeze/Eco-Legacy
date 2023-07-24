@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "eco_legacy:item/ancient_ingot"
+    "layer0": "eco_legacy:item/ancient_ingot_new"
   }
 }

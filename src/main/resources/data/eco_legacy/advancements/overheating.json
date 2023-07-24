@@ -19,5 +19,8 @@
       "trigger": "minecraft:impossible"
     }
   },
+  "rewards": {
+    "experience": 10
+  },
   "parent": "eco_legacy:keep_improving"
 }
