@@ -68,6 +68,7 @@ public class GUIHighEnergyRefinerScreen extends AbstractContainerScreen<GUIHighE
 
 	@Override
 	protected void renderLabels(PoseStack poseStack, int mouseX, int mouseY) {
+		this.font.draw(poseStack, Component.translatable("gui.eco_legacy.gui_high_energy_refiner.label_high_energy_refiner"), 6, 88, -12829636);
 	}
 
 	@Override
@@ -79,7 +80,7 @@ public class GUIHighEnergyRefinerScreen extends AbstractContainerScreen<GUIHighE
 	public void init() {
 		super.init();
 		button_refine = Button.builder(Component.translatable("gui.eco_legacy.gui_high_energy_refiner.button_refine"), e -> {
-		}).bounds(this.leftPos + 193, this.topPos + 51, 56, 20).build();
+		}).bounds(this.leftPos + 60, this.topPos + 178, 56, 20).build();
 		guistate.put("button:button_refine", button_refine);
 		this.addRenderableWidget(button_refine);
 	}

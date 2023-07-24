@@ -76,37 +76,37 @@ public class GUIHighEnergyRefinerMenu extends AbstractContainerMenu implements S
 				}
 			}
 		}
-		this.customSlots.put(1, this.addSlot(new SlotItemHandler(internal, 1, 34, 35) {
+		this.customSlots.put(1, this.addSlot(new SlotItemHandler(internal, 1, 34, 26) {
 			@Override
 			public boolean mayPlace(ItemStack stack) {
 				return EcoLegacyModItems.ENERGY_DUST.get() == stack.getItem();
 			}
 		}));
-		this.customSlots.put(2, this.addSlot(new SlotItemHandler(internal, 2, 34, 71) {
+		this.customSlots.put(2, this.addSlot(new SlotItemHandler(internal, 2, 34, 62) {
 			@Override
 			public boolean mayPlace(ItemStack stack) {
 				return EcoLegacyModItems.ENERGY_DUST.get() == stack.getItem();
 			}
 		}));
-		this.customSlots.put(3, this.addSlot(new SlotItemHandler(internal, 3, 124, 35) {
+		this.customSlots.put(3, this.addSlot(new SlotItemHandler(internal, 3, 124, 26) {
 			@Override
 			public boolean mayPlace(ItemStack stack) {
 				return EcoLegacyModItems.ENERGY_DUST.get() == stack.getItem();
 			}
 		}));
-		this.customSlots.put(4, this.addSlot(new SlotItemHandler(internal, 4, 124, 71) {
+		this.customSlots.put(4, this.addSlot(new SlotItemHandler(internal, 4, 124, 62) {
 			@Override
 			public boolean mayPlace(ItemStack stack) {
 				return EcoLegacyModItems.ENERGY_DUST.get() == stack.getItem();
 			}
 		}));
-		this.customSlots.put(5, this.addSlot(new SlotItemHandler(internal, 5, 79, 17) {
+		this.customSlots.put(5, this.addSlot(new SlotItemHandler(internal, 5, 79, 8) {
 			@Override
 			public boolean mayPlace(ItemStack stack) {
 				return EcoLegacyModItems.ANCIENT_INGOT.get() == stack.getItem();
 			}
 		}));
-		this.customSlots.put(10, this.addSlot(new SlotItemHandler(internal, 10, 79, 53) {
+		this.customSlots.put(10, this.addSlot(new SlotItemHandler(internal, 10, 79, 44) {
 			@Override
 			public boolean mayPlace(ItemStack stack) {
 				return false;
