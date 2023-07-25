@@ -4,6 +4,7 @@
  */
 package wfb.ecolegacy.init;
 
+import wfb.ecolegacy.item.NaturiteIngotItem;
 import wfb.ecolegacy.item.InceptionPickaxeItem;
 import wfb.ecolegacy.item.EnergyDustItem;
 import wfb.ecolegacy.item.DevItem;
@@ -32,6 +33,7 @@ public class EcoLegacyModItems {
 	public static final RegistryObject<Item> ANCIENT_INGOT = REGISTRY.register("ancient_ingot", () -> new AncientIngotItem());
 	public static final RegistryObject<Item> HIGH_ENERGY_REFINER = block(EcoLegacyModBlocks.HIGH_ENERGY_REFINER);
 	public static final RegistryObject<Item> COMPRESSED_IRON_PLATE = REGISTRY.register("compressed_iron_plate", () -> new CompressedIronPlateItem());
+	public static final RegistryObject<Item> NATURITE_INGOT = REGISTRY.register("naturite_ingot", () -> new NaturiteIngotItem());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties()));
