@@ -1,6 +1,8 @@
 package wfb.ecolegacy.client.gui;
 
 import wfb.ecolegacy.world.inventory.GUIHighEnergyRefinerMenu;
+import wfb.ecolegacy.network.GUIHighEnergyRefinerButtonMessage;
+import wfb.ecolegacy.EcoLegacyMod;
 
 import net.minecraft.world.level.Level;
 import net.minecraft.world.entity.player.Player;
@@ -68,7 +70,7 @@ public class GUIHighEnergyRefinerScreen extends AbstractContainerScreen<GUIHighE
 
 	@Override
 	protected void renderLabels(PoseStack poseStack, int mouseX, int mouseY) {
-		this.font.draw(poseStack, Component.translatable("gui.eco_legacy.gui_high_energy_refiner.label_high_energy_refiner"), 5, 5, -12829636);
+		this.font.draw(poseStack, Component.translatable("gui.eco_legacy.gui_high_energy_refiner.label_high_energy_refiner"), 8, 8, -12829636);
 	}
 
 	@Override
@@ -80,6 +82,10 @@ public class GUIHighEnergyRefinerScreen extends AbstractContainerScreen<GUIHighE
 	public void init() {
 		super.init();
 		button_refine = Button.builder(Component.translatable("gui.eco_legacy.gui_high_energy_refiner.button_refine"), e -> {
+			if (true) {
+				EcoLegacyMod.PACKET_HANDLER.sendToServer(new GUIHighEnergyRefinerButtonMessage(0, x, y, z));
+				GUIHighEnergyRefinerButtonMessage.handleButtonAction(entity, 0, x, y, z);
+			}
 		}).bounds(this.leftPos + 60, this.topPos + 178, 56, 20).build();
 		guistate.put("button:button_refine", button_refine);
 		this.addRenderableWidget(button_refine);
