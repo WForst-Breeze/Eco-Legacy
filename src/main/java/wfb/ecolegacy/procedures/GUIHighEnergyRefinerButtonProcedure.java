@@ -65,11 +65,27 @@ public class GUIHighEnergyRefinerButtonProcedure {
 					((Slot) _slots.get(5)).remove(1);
 					_player.containerMenu.broadcastChanges();
 				}
-				if (entity instanceof ServerPlayer _player && _player.containerMenu instanceof Supplier _current && _current.get() instanceof Map _slots) {
-					ItemStack _setstack = new ItemStack(EcoLegacyModItems.NATURITE_INGOT.get());
-					_setstack.setCount(1);
-					((Slot) _slots.get(10)).set(_setstack);
-					_player.containerMenu.broadcastChanges();
+				if (new Object() {
+					public int getAmount(int sltid) {
+						if (entity instanceof ServerPlayer _player && _player.containerMenu instanceof Supplier _current && _current.get() instanceof Map _slots) {
+							ItemStack stack = ((Slot) _slots.get(sltid)).getItem();
+							if (stack != null)
+								return stack.getCount();
+						}
+						return 0;
+					}
+				}.getAmount(10) >= 1) {
+					if (entity instanceof ServerPlayer _player && _player.containerMenu instanceof Supplier _current && _current.get() instanceof Map _slots) {
+						((Slot) _slots.get(0)).remove(-1);
+						_player.containerMenu.broadcastChanges();
+					}
+				} else {
+					if (entity instanceof ServerPlayer _player && _player.containerMenu instanceof Supplier _current && _current.get() instanceof Map _slots) {
+						ItemStack _setstack = new ItemStack(EcoLegacyModItems.NATURITE_INGOT.get());
+						_setstack.setCount(1);
+						((Slot) _slots.get(10)).set(_setstack);
+						_player.containerMenu.broadcastChanges();
+					}
 				}
 				if (entity instanceof ServerPlayer _player && _player.containerMenu instanceof Supplier _current && _current.get() instanceof Map _slots) {
 					((Slot) _slots.get(1)).remove(32);
