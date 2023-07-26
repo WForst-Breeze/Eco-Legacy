@@ -29,6 +29,7 @@ public class EcoLegacyModTabs {
 
 		if (tabData.getTab() == CreativeModeTabs.TOOLS_AND_UTILITIES) {
 			tabData.accept(EcoLegacyModItems.INCEPTION_PICKAXE.get());
+			tabData.accept(EcoLegacyModItems.NATURITE_INCEPTION_PICKAXE.get());
 		}
 
 		if (tabData.getTab() == CreativeModeTabs.NATURAL_BLOCKS) {

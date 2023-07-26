@@ -13,6 +13,7 @@ import net.minecraft.world.item.Item;
 import net.minecraft.world.item.BlockItem;
 
 import net.ecolegacy.item.NaturiteIngotItem;
+import net.ecolegacy.item.NaturiteInceptionPickaxeItem;
 import net.ecolegacy.item.InceptionPickaxeItem;
 import net.ecolegacy.item.EnergyDustItem;
 import net.ecolegacy.item.DevItem;
@@ -34,6 +35,7 @@ public class EcoLegacyModItems {
 	public static final RegistryObject<Item> HIGH_ENERGY_REFINER = block(EcoLegacyModBlocks.HIGH_ENERGY_REFINER);
 	public static final RegistryObject<Item> COMPRESSED_IRON_PLATE = REGISTRY.register("compressed_iron_plate", () -> new CompressedIronPlateItem());
 	public static final RegistryObject<Item> NATURITE_INGOT = REGISTRY.register("naturite_ingot", () -> new NaturiteIngotItem());
+	public static final RegistryObject<Item> NATURITE_INCEPTION_PICKAXE = REGISTRY.register("naturite_inception_pickaxe", () -> new NaturiteInceptionPickaxeItem());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties()));

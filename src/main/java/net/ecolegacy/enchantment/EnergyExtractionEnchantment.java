@@ -19,7 +19,7 @@ public class EnergyExtractionEnchantment extends Enchantment {
 	@Override
 	public boolean canApplyAtEnchantingTable(ItemStack stack) {
 		Item item = stack.getItem();
-		return List.of(EcoLegacyModItems.INCEPTION_PICKAXE.get()).contains(item);
+		return List.of(EcoLegacyModItems.INCEPTION_PICKAXE.get(), EcoLegacyModItems.NATURITE_INCEPTION_PICKAXE.get()).contains(item);
 	}
 
 	@Override

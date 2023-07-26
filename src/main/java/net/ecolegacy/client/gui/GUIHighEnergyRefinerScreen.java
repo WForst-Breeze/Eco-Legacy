@@ -70,7 +70,7 @@ public class GUIHighEnergyRefinerScreen extends AbstractContainerScreen<GUIHighE
 
 	@Override
 	protected void renderLabels(PoseStack poseStack, int mouseX, int mouseY) {
-		this.font.draw(poseStack, Component.translatable("gui.eco_legacy.gui_high_energy_refiner.label_high_energy_refiner"), 8, 8, -12829636);
+		this.font.draw(poseStack, Component.translatable("gui.eco_legacy.gui_high_energy_refiner.label_high_energy_refiner"), 6, 7, -12829636);
 	}
 
 	@Override
