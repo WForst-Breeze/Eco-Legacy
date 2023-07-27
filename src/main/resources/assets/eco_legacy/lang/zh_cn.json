@@ -2,6 +2,7 @@
   "item.eco_legacy.dev": "Dev",
   "advancements.back_to_basics.title": "返璞归真",
   "item.eco_legacy.ancient_raw_ore": "上古粗矿",
+  "gui.eco_legacy.gui_high_energy_refiner.label_inventory": "物品栏",
   "item.eco_legacy.energy_dust": "能量尘埃",
   "advancements.back_to_basics.descr": "伊始之镐蕴藏着万物之秘密，崇尚着至高之和睦。",
   "gui.eco_legacy.gui_high_energy_refiner.button_refine": "充能提炼",
@@ -20,7 +21,7 @@
   "block.eco_legacy.deepslate_ancient_ore": "深层上古矿石",
   "item.eco_legacy.ancient_ingot": "上古锭",
   "block.eco_legacy.high_energy_refiner": "高能精炼机",
-  "item.eco_legacy.naturite_inception_pickaxe": "Naturite Inception Pickaxe",
+  "item.eco_legacy.naturite_inception_pickaxe": "自然精华镐",
   "advancements.overheating.descr": "到底是为什么呢",
   "item.eco_legacy.ancient_dust": "上古尘埃"
 }

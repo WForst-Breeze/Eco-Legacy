@@ -2,9 +2,10 @@
   "item.eco_legacy.dev": "Dev",
   "advancements.back_to_basics.title": "Back To Basics",
   "item.eco_legacy.ancient_raw_ore": "Ancient Raw Ore",
+  "gui.eco_legacy.gui_high_energy_refiner.label_inventory": "Inventory",
   "item.eco_legacy.energy_dust": "Energy Dust",
   "advancements.back_to_basics.descr": "The Inception Pickaxe embodies the secrets of nature. It can only be used for labor and cannot inflict any harm on living creatures.",
-  "gui.eco_legacy.gui_high_energy_refiner.button_refine": "buttom.eco_legacy.refine",
+  "gui.eco_legacy.gui_high_energy_refiner.button_refine": "Refine",
   "advancements.eco_legacy.descr": "The journey of a thousand miles begins with one step.",
   "enchantment.eco_legacy.energy_extraction": "Energy Extraction",
   "item.eco_legacy.compressed_iron_plate": "Compressed Iron Plate",
@@ -20,7 +21,7 @@
   "block.eco_legacy.deepslate_ancient_ore": "Deepslate Ancient Ore",
   "item.eco_legacy.ancient_ingot": "Ancient Ingot",
   "block.eco_legacy.high_energy_refiner": "High Energy Refiner",
-  "item.eco_legacy.naturite_inception_pickaxe": "Naturite Inception Pickaxe",
+  "item.eco_legacy.naturite_inception_pickaxe": "Naturite Pickaxe",
   "advancements.overheating.descr": "Tell me why?",
   "item.eco_legacy.ancient_dust": "Ancient Dust"
 }
