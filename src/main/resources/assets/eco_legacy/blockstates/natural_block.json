@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "eco_legacy:block/natural_block"
+    }
+  }
+}

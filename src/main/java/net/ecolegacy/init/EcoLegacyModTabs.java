@@ -34,6 +34,7 @@ public class EcoLegacyModTabs {
 
 		if (tabData.getTab() == CreativeModeTabs.NATURAL_BLOCKS) {
 			tabData.accept(EcoLegacyModBlocks.DEEPSLATE_ANCIENT_ORE.get().asItem());
+			tabData.accept(EcoLegacyModBlocks.NATURAL_BLOCK.get().asItem());
 		}
 	}
 }
