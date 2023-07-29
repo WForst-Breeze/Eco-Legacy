@@ -17,6 +17,7 @@ public class EcoLegacyModTabs {
 
 		if (tabData.getTab() == CreativeModeTabs.FUNCTIONAL_BLOCKS) {
 			tabData.accept(EcoLegacyModBlocks.HIGH_ENERGY_REFINER.get().asItem());
+			tabData.accept(EcoLegacyModBlocks.NATURAL_BLOCK.get().asItem());
 		}
 
 		if (tabData.getTab() == CreativeModeTabs.INGREDIENTS) {
@@ -34,7 +35,6 @@ public class EcoLegacyModTabs {
 
 		if (tabData.getTab() == CreativeModeTabs.NATURAL_BLOCKS) {
 			tabData.accept(EcoLegacyModBlocks.DEEPSLATE_ANCIENT_ORE.get().asItem());
-			tabData.accept(EcoLegacyModBlocks.NATURAL_BLOCK.get().asItem());
 		}
 	}
 }

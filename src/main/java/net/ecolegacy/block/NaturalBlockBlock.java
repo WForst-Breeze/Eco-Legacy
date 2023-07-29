@@ -1,14 +1,22 @@
 
 package net.ecolegacy.block;
 
+import net.minecraftforge.common.IPlantable;
+
 import net.minecraft.world.level.storage.loot.LootContext;
+import net.minecraft.world.level.pathfinder.BlockPathTypes;
+import net.minecraft.world.level.material.PushReaction;
 import net.minecraft.world.level.material.Material;
 import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraft.world.level.block.SoundType;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.BlockGetter;
+import net.minecraft.world.item.PickaxeItem;
 import net.minecraft.world.item.ItemStack;
+import net.minecraft.world.entity.player.Player;
+import net.minecraft.world.entity.Mob;
+import net.minecraft.core.Direction;
 import net.minecraft.core.BlockPos;
 
 import java.util.List;
@@ -16,12 +24,34 @@ import java.util.Collections;
 
 public class NaturalBlockBlock extends Block {
 	public NaturalBlockBlock() {
-		super(BlockBehaviour.Properties.of(Material.METAL).sound(SoundType.METAL).strength(7f, 10f));
+		super(BlockBehaviour.Properties.of(Material.METAL).sound(SoundType.METAL).strength(7f, 10f).requiresCorrectToolForDrops());
 	}
 
 	@Override
 	public int getLightBlock(BlockState state, BlockGetter worldIn, BlockPos pos) {
 		return 15;
+	}
+
+	@Override
+	public BlockPathTypes getBlockPathType(BlockState state, BlockGetter world, BlockPos pos, Mob entity) {
+		return BlockPathTypes.WATER;
+	}
+
+	@Override
+	public boolean canSustainPlant(BlockState state, BlockGetter world, BlockPos pos, Direction direction, IPlantable plantable) {
+		return true;
+	}
+
+	@Override
+	public PushReaction getPistonPushReaction(BlockState state) {
+		return PushReaction.DESTROY;
+	}
+
+	@Override
+	public boolean canHarvestBlock(BlockState state, BlockGetter world, BlockPos pos, Player player) {
+		if (player.getInventory().getSelected().getItem() instanceof PickaxeItem tieredItem)
+			return tieredItem.getTier().getLevel() >= 1;
+		return false;
 	}
 
 	@Override
